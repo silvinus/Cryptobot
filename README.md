@@ -1,2 +1,2 @@
 # Cryptobot
-a .net core bot for retrieve crypto money information
+a .net core bot to retrieve crypto money informations

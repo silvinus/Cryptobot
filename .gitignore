@@ -1,0 +1,13 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+*.lock
+/.vs/Cryptobot/v15/Server/sqlite3/storage.ide-wal
+/.vs/Cryptobot/v15/Server/sqlite3/storage.ide-shm
+/.vs/Cryptobot/v15/Server/sqlite3/storage.ide
+/.vs/Cryptobot/v15/.suo
+/.vs/config/applicationhost.config
+/Cryptobot/bin/*
+/Cryptobot/obj/*
+/Cryptobot/Properties/PublishProfiles/*
