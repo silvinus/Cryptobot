@@ -11,3 +11,11 @@
 /Cryptobot/bin/*
 /Cryptobot/obj/*
 /Cryptobot/Properties/PublishProfiles/*
+/CryptobotFull/bin/*
+/CryptobotFull/obj/*
+/CoinsClients/bin/*
+/CoinsClients/obj/*
+/CryptobotFull/*.user
+/obj/*
+/packages/*
+/test/*

@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Bot.Connector;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Cryptobot.CoinFalconClient;
 
 namespace Cryptobot
 {
@@ -47,7 +46,7 @@ namespace Cryptobot
                 .AddBotAuthentication(credentialProvider);
 
             services.AddSingleton(typeof(ICredentialProvider), credentialProvider);
-            services.AddSingleton(typeof(RestClient), new RestClient());
+            // services.AddSingleton(typeof(RestClient), new RestClient());
 
             services.AddMvc(options =>
             {
